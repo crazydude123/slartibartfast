@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Thidpuch</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+
+    <string name="location_permission_denied">location permission denied</string>
+    <string name="permission_required_toast">permission required</string>
+    <string name="permission_rationale_location">permission rationale location</string>
+
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="wanna_earn_money_by_answering_a_few_questions_click_to_register">Wanna earn money by answering a few questions? Click to Register!</string>
+    <string name="already_registered_click_to_login">Already registered? Click to Login!</string>
+    <string name="next"><![CDATA[>]]></string>
+    <string name="title_activity_maps">Map</string>
+</resources>

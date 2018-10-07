@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#ffffffff">
+
+    <EditText
+        android:id="@+id/textemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="#ffffffff"
+        android:drawableBottom="#ff263238"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:minLines="70"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="#ff263238"
+        android:textColorHint="#ff80deea"
+        app:layout_constraintBottom_toTopOf="@+id/textname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter your Name"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColorHint="#ffff5722"
+        app:layout_constraintBottom_toTopOf="@+id/textphone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textemail" />
+
+    <EditText
+        android:id="@+id/textphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:hint="Enter your Contact number"
+        android:inputType="phone"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColorHint="#ff39e568"
+        app:layout_constraintBottom_toTopOf="@+id/otp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textname" />
+
+    <Button
+        android:id="@+id/otp"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="50dp"
+        android:background="#ffffffff"
+        android:text="Get OTP >"
+        android:textColor="#ff020202"
+        android:textColorHighlight="#ff0e0202"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textphone" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#ff0e0202"
+        android:ems="5"
+        android:inputType="numberPassword"
+        android:padding="10dp"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:textColor="@color/colourWhite"
+        app:layout_constraintBottom_toTopOf="@+id/Done"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/otp"
+        app:layout_constraintVertical_bias="0.63" />
+
+    <Button
+        android:id="@+id/Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffffff"
+        android:text="Register >"
+        android:textColor="#ff020202"
+        android:textColorHighlight="#ff0e0202"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/otp"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
+</android.support.constraint.ConstraintLayout>
